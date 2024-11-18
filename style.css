@@ -1,0 +1,186 @@
+*,
+*:before,
+*:after{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+   background-color: #113038;
+
+}
+.main{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.container{
+    height: 80%;
+    width: 40%;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-around ;
+    align-items: center;
+    flex-direction: column;
+
+}
+.box1{
+    height: 30%;
+    width: 80%;
+    /* background-color: yellow; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.heading{
+    height: 30%;
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+
+}
+.inn{
+    /* border: 2px solid; */
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    height: 35%;
+}
+.inn input{
+    width: 70%;
+    border-radius: 6px;
+    padding-left: 10px;
+    border: 1px solid grey;
+
+}
+.box2{
+    height: 60%;
+    width: 80%;
+    /* background-color: blue; */
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.input1{
+    height: 40%;
+    width: 100%;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+border-radius: 9px;
+}
+.lis1{
+    margin-left: -40px;
+    /* border: 1px solid; */
+    width: 90%;
+    /* height: 100%; */
+    /* display: flex; */
+    /* justify-content: center; */
+}
+
+.lis {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    width: 100%;
+   
+    border-radius: 5px;
+    padding: 10px 0px;
+    margin: 15px 0;
+    font-family: Arial, sans-serif;
+}
+.editBtn{
+   margin-left: auto;
+}
+.bnt{
+    position: relative;
+    /* float: right; */
+    width: 20%;
+    /* height: 90%; */
+    border-radius: 5px;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: #000000;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    outline: none;
+    /* margin-left: 30px; */
+}
+.deleteBtn{
+    background: transparent;
+    border: none;
+}
+.editBtn{
+    background: transparent;
+    border: none;
+}
+@media(max-width:502px){
+.container{
+    width: 90%;
+    border: 2px solid;
+    height: 95%;
+}
+    .box1{
+    border: 1px solid;
+    width: 100%;
+}
+.editable{
+    width: 80%;
+}
+.lis1{
+    width: 100%;
+}
+.lis{
+   padding: 3px 0px;
+}
+.input1{
+    border-radius: 5px;
+}
+.box2{
+    width: 90%;
+}
+.inn input{
+    height: 20px;
+}
+.inn button{
+    margin-top: -5px;
+    height: 30px;
+
+}
+.deleteBtn{
+    margin-right: -5px;
+}
+}
+/* @media  (max-width:768px ){
+.container{
+ border: 2px solid;
+ width: 80%;
+}
+.box1{
+    width: 70%;
+}
+.lis{
+    padding: 5px 0px;
+ }
+ .box2{
+    width: 60%;
+ }
+} */
+
