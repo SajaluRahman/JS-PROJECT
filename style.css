@@ -90,6 +90,10 @@ border-radius: 9px;
     /* display: flex; */
     /* justify-content: center; */
 }
+.checkbox {
+    margin-right: 15px;
+    transform: scale(1.2);
+}
 
 .lis {
     display: flex;
@@ -151,11 +155,11 @@ border-radius: 9px;
 @media(max-width:502px){
 .container{
     width: 90%;
-
+    /* border: 2px solid; */
     height: 95%;
 }
     .box1{
-  
+    /* border: 1px solid; */
     width: 100%;
 }
 .editable{
@@ -187,5 +191,19 @@ border-radius: 9px;
     margin-right: -5px;
 }
 }
-
+/* @media  (max-width:768px ){
+.container{
+ border: 2px solid;
+ width: 80%;
+}
+.box1{
+    width: 70%;
+}
+.lis{
+    padding: 5px 0px;
+ }
+ .box2{
+    width: 60%;
+ }
+} */
 
