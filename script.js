@@ -100,9 +100,17 @@ function addItem() {
         const newLi = document.createElement("li");
        newLi.className="lis";
        newLi.style.paddingLeft="20px"
-       newLi.style.marginLeft="20px"
+       newLi.style.marginLeft="25px"
 
-       
+
+
+                      //checkbox
+       const checkbox=document.createElement("input");
+       checkbox.type="checkbox";
+       checkbox.className="checkbox";
+    //    checkbox.style.marginRight="5px"
+       newLi.appendChild(checkbox);
+
 
 
         //text span
