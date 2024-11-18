@@ -131,6 +131,23 @@ border-radius: 9px;
     background: transparent;
     border: none;
 }
+.btn2{
+    
+    display: flex;
+    justify-content: center;
+    height:8%;
+    /* border: 2px solid; */
+}
+.btn2 button{
+    margin-left: 20px;
+    width: 30%;
+    background: white;
+    border: none;
+    color: #000;
+    font-size: 15px;
+    box-shadow: 2px 2px 10px;
+    border-radius: 5px;
+}
 @media(max-width:502px){
 .container{
     width: 90%;
