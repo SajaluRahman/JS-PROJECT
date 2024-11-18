@@ -1,97 +1,9 @@
 
-//    const inptext = document.getElementById('inp');
-//    const add = document.getElementById('btn');
-//    const list = document.getElementById('lists');
-
-//  function addItem() {
-//        const text = inptext.value.trim();
-//        if (text) {
-//         // listss
-//            const newli = document.createElement("li");
-//            newli.textContent = text;
-//            newli.style.width="200px"
-//            newli.style.display="flex"
-//            newli.style.justifyContent="space-between"
-
-           
-//                 //   deletebutton
-//            const deleteButton = document.createElement("button");
-//                deleteButton.style.background="transparent"
-//                deleteButton.style.border="none";
-
-
-//                 deleteButton.innerHTML = `<svg class="svgs" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#000"><path d="M280-120q-33 0-56.5-23.5T200-200v-520h-40v-80h200v-40h240v40h200v80h-40v520q0 33-23.5 56.5T680-120H280Zm400-600H280v520h400v-520ZM360-280h80v-360h-80v360Zm160 0h80v-360h-80v360ZM280-720v520-520Z"/></svg>`
-//                 deleteButton.classList.add("deleteBtn");
-//                 newli.appendChild(deleteButton);
-
-               
-
-//                 deleteButton.addEventListener("click", function() {
-//                     list.removeChild(newli);
-//                 });
-                     
-
-//                 // edit button
-
-//                 const editbutton=document.createElement('button');
-//                 editbutton.textContent="editt";
-//                 editbutton.classList.add("editBtn")
-//                 newli.appendChild(editbutton)
-
-//                 const textSpan = document.createElement("span");
-//                 textSpan.textContent = text;
-//                 newli.appendChild(textSpan);
-
-
-//                 list.appendChild(newli);
-
-//                 inptext.value = "";
-
-                
-//                 editbutton.addEventListener("click",function(){
-//                   const inputfield=document.createElement("input");
-//                   inputfield.valur=textSpan.textContent;
-//                   inputfield.classList.add("editable");
-                    
-//                      newli.replaceChild(inputfield,textSpan);
-//                      inputfield.focus();
-
-//                      inputfield.addEventListener("keydown", function(event){
-//                         if(event.key==="Enter"){
-//                             textSpan.textContent=inputfield.value;
-//                             newli.replaceChild(textSpan,inputfield);
-//                         }
-//                      })
-                      
-//                 });
-
-//                   inputfield.addEventListener("blur",function(){
-//                             textSpan.textContent=inputfield.value;
-//                             newli.replaceChild(textSpan,inputfield)
-//                         });
-                    
-
-   
-
-           
-
-//        }
-       
-//    };
-
-//    add.addEventListener("click", addItem);
-
-//    inptext.addEventListener("keydown", function(event) {
-//     if (event.key === "Enter") {
-//         addItem();
-//     }
-// });
-
-
 
 const inptext = document.getElementById('inp');
 const add = document.getElementById('btn');
 const list = document.getElementById('lists');
+
 
 function addItem() {
     const text = inptext.value.trim();
@@ -104,13 +16,15 @@ function addItem() {
 
 
 
-                      //checkbox
+       //checkbox
        const checkbox=document.createElement("input");
        checkbox.type="checkbox";
        checkbox.className="checkbox";
     //    checkbox.style.marginRight="5px"
        newLi.appendChild(checkbox);
 
+
+       
 
 
         //text span
@@ -154,6 +68,7 @@ function addItem() {
      
         inptext.value = "";
 
+      
         
         editButton.addEventListener("click", function () {
 
@@ -191,6 +106,9 @@ inptext.addEventListener("keydown", function (event) {
         addItem();
     }
 });
+
+
+
 
 
 const sbt=document.getElementById("sbmt");
