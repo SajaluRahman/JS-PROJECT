@@ -69,9 +69,7 @@ body{
     justify-content: center;
     /* align-items: center; */
 }
-.menu1{
-    display: none;
-}
+
 
 .input1{
     height: 40%;
@@ -171,7 +169,7 @@ border-radius: 9px;
     box-shadow: 2px 2px 10px;
     border-radius: 5px;
 }
-@media(max-width:502px){
+@media(max-width:800px){
 .container{
     width: 90%;
     /* border: 2px solid; */
@@ -215,26 +213,5 @@ border-radius: 9px;
 .deleteBtn{
     margin-right: -5px;
 }
-.menu1{
-    display: block;
 }
-.menu{
-    display: none;
-}
-}
-/* @media  (max-width:768px ){
-.container{
- border: 2px solid;
- width: 80%;
-}
-.box1{
-    width: 70%;
-}
-.lis{
-    padding: 5px 0px;
- }
- .box2{
-    width: 60%;
- }
-} */
 
