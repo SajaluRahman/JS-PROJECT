@@ -1,6 +1,4 @@
-*,
-*:before,
-*:after{
+*{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
@@ -187,14 +185,20 @@ border-radius: 9px;
     width: 80%;
 }
 .lis1{
-    width: 100%;
+   /* border: 2px solid; */
+   width: 100%;
 }
 .lis{
-   padding: 10px 0px;
+   padding: 10px 0px 10px ;
+   /* border: 2px solid; */
+   /* background-color: #000000; */
+   margin-left: -0px !important;
+   
 }
 .input1{
     border-radius: 5px;
-    height: 30%;
+   /* border: 2px solid; */
+   height: 30%;
 }
 .box2{
     width: 90%;
